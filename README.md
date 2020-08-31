@@ -12,4 +12,4 @@
 # Sarch_for_Yui.ipynb
 　学習済みStyleGAN2モデルの潜在空間の中に、新垣結衣そっくりの画像がないか探します。\
 新垣結衣の画像を用意し、その画像に出来るだけ近い画像を生成するベクトルを探索します。
-詳細は、[Qiita](https://qiita.com/jun40vn/items/e58974c2aa9839d25a57)をご覧下さい。
+詳細は、[cedro-blog](http://cedro3.com/ai/search-for-yui/)をご覧下さい。

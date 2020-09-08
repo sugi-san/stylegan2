@@ -2,7 +2,7 @@
 
 # Edit_new_image.ipynb
 　学習済みStyleGAN2モデルを使って、新規画像の画像編集がどの程度出来るのかを検証します。\
-新規画像としては、あらかじめモデルを使って最も新規画像に近い画像を生成するベクトルデータ (18, 512) を求めて使用しています。詳細は、[Qiita](https://qiita.com/jun40vn/items/6cdc151f32e5d705e2dd)をご覧下さい。
+新規画像としては、あらかじめモデルを使って最も新規画像に近い画像を生成するベクトルデータ (18, 512) を求めて使用しています。詳細は、[cedro-blog](http://cedro3.com/ai/edit-new-image/)をご覧下さい。
 
 # Find_your_favorite.ipynb
 　学習済みStyleGAN2モデルの潜在空間にある画像の中から、好みの画像を探します。\

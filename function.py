@@ -7,7 +7,7 @@ import dnnlib.tflib as tflib
 import scipy
 
 tflib.init_tf()
-_G, _D, Gs = pickle.load(open("/content/network-tadne.pkl", "rb"))
+_G, _D, Gs = pickle.load(open("../network-tadne.pkl", "rb"))
 # _G = Instantaneous snapshot of the generator. Mainly useful for resuming a previous training run.
 # _D = Instantaneous snapshot of the discriminator. Mainly useful for resuming a previous training run.
 # Gs = Long-term average of the generator. Yields higher-quality results than the instantaneous snapshot.

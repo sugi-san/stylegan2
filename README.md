@@ -13,3 +13,6 @@
 　学習済みStyleGAN2モデルの潜在空間の中に、新垣結衣そっくりの画像がないか探します。\
 新垣結衣の画像を用意し、その画像に出来るだけ近い画像を生成するベクトルを探索します。
 詳細は、[cedro-blog](http://cedro3.com/ai/search-for-yui/)をご覧下さい。
+
+# generate_ayadao's_anime.ipynb
+　通常、GANでアニメキャラを生成するというと顔のみです。しかし、これは、なんとアニメキャラの上半身を生成するGANです。詳細は、[cedro-blog](http://cedro3.com/ai/anime/)をご覧ください。

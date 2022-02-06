@@ -239,7 +239,7 @@ def generate_images(seeds, truncation_psi):
         #print(z)
         tflib.set_vars({var: rnd.randn(*var.shape.as_list()) for var in noise_vars}) # [height, width]
         images = Gs.run(z, None, **Gs_kwargs) # [minibatch, height, width, channel]
-        PIL.Image.fromarray(images[0], 'RGB').save('seed%04d.png' % seed)
+        PIL.Image.fromarray(images[0], 'RGB').save('gen_img/'+str(seed).zfill(4)+'.png')
         display(PIL.Image.fromarray(images[0], 'RGB'))
 
 

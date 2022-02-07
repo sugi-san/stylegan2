@@ -144,7 +144,7 @@ def interpolate_between_seeds(seed_array, truncation, duration_sec = 10.0, smoot
 
     
     import moviepy.editor
-    mp4_file = 'interp_%s-%s.mp4' % (seed_array, truncation)
+    mp4_file = 'interp.mp4' ###
     if filename:
         mp4_file = filename
     mp4_codec = 'libx264'

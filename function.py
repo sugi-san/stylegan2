@@ -5,6 +5,7 @@ import PIL.Image
 import dnnlib
 import dnnlib.tflib as tflib
 import scipy
+import moviepy.editor
 
 tflib.init_tf()
 _G, _D, Gs = pickle.load(open("../network-tadne.pkl", "rb"))

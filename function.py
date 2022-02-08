@@ -279,7 +279,7 @@ from IPython.display import display, HTML
 from IPython.display import HTML
 
 def display_mp4(path):
-    print(f'Read from {path}')
+    print('prepere to play movie...')
     from base64 import b64encode
     mp4 = open(path,'rb').read()
     data_url = "data:video/mp4;base64," + b64encode(mp4).decode()

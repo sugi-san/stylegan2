@@ -296,7 +296,6 @@ import matplotlib.pyplot as plt
 from PIL import Image
 import numpy as np
 import os
-%matplotlib inline
 
 def display_pic(folder):
     fig = plt.figure(figsize=(30, 60))
